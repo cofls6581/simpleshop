@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbv:h2:tcp://localhost/~/simpleshop;
+    username: sa
+    passsword:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        hibernate:
+#          show_sql: true
+          formate_sql: true
+
+  logging.level:
+    org.hibernate.SQL: debug
