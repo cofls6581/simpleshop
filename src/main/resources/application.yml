@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbv:h2:tcp://localhost/~/simpleshop;
+    url: jdbc:h2:tcp://localhost/~/simpleshop;
     username: sa
     passsword:
     driver-class-name: org.h2.Driver
